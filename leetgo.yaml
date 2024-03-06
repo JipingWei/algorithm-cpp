@@ -59,9 +59,9 @@ contest:
 editor:
   # Use a predefined editor: vim, vscode, goland
   # Set to 'none' to disable, set to 'custom' to provide your own command
-  use: vscode
+  use: custom
   # Custom command to open files
-  command: ""
+  command: "clion"
   # Arguments to the command.
   # String contains {{.CodeFile}}, {{.TestFile}}, {{.DescriptionFile}}, {{.TestCasesFile}} will be replaced with corresponding file path.
   # {{.Folder}} will be substituted with the output directory.
